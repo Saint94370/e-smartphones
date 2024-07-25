@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Événement - Gagnez un Smartphone</title>
+    <link rel="stylesheet" href="../css/styleEvenement.css" />
+  </head>
+  <body>
+    <header>
+      <nav>
+        <div class="logo">E-phones</div>
+        <ul>
+          <li><a href="../index.html">HOME</a></li>
+          <li><a href="./contact.html">CONTACT</a></li>
+          <li><a href="./evenements.html">ÉVÈNEMENT</a></li>
+          <li><a href="./produits.html">PRODUITS</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <h2>Participez et tentez de gagner un smartphone!</h2>
+      <div class="game">
+        <p>Cliquez sur une boîte pour découvrir si vous avez gagné !</p>
+        <div class="boxes">
+          <div class="box" onclick="checkWin(this)"></div>
+          <div class="box" onclick="checkWin(this)"></div>
+          <div class="box" onclick="checkWin(this)"></div>
+        </div>
+      </div>
+    </main>
+    <script src="evenement.js"></script>
+  </body>
+</html>
